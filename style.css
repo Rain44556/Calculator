@@ -8,7 +8,7 @@
 .container {
     width: 100%;
     height: 100vh;
-    background: rgba(192, 192, 192, 0.629);
+    background: hsl(0, 23%, 91%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,6 +41,12 @@
     color: rgb(18, 101, 13);
     cursor: default;
     margin: 8px;
+    transition: 0.1s;
+}
+
+.calculator form input:hover {
+    box-shadow: -8px -8px 15px rgba(14, 4, 4, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: rgb(11, 60, 74);
 }
 
 form .text {
@@ -74,4 +80,14 @@ form .equal input {
 form .value input {
     width: 80px;
     height: 50px;
+}
+
+form .value .clearValue {
+    color: rgb(240, 17, 185);
+    background-color: rgb(79, 51, 105);
+}
+
+form .value .trig {
+    color: azure;
+    background-color: rgba(240, 248, 255, 0.527);
 }
