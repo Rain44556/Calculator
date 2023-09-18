@@ -22,7 +22,6 @@
     padding-right: 70px;
     border-radius: 28px;
 
-
 }
 
 .name {
@@ -50,6 +49,7 @@ form .text {
     display: flex;
     justify-content: flex-end;
     margin: 30px, 0px;
+    color: rgb(193, 235, 221);
 }
 
 form .text input {
@@ -59,6 +59,7 @@ form .text input {
     box-shadow: 5px;
     height: 80px;
     background: rgb(11, 60, 74);
+    color: rgb(78, 183, 228);
 }
 
 form .equal {
