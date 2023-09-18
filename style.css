@@ -42,18 +42,14 @@
     background: rgb(120, 236, 214);
     font-size: 18px;
     color: rgb(18, 101, 13);
-    cursor: pointer;
+    cursor: default;
     margin: 10px;
-
-
 }
 
 form .text {
     display: flex;
     justify-content: flex-end;
     margin: 30px, 0px;
-
-
 }
 
 form .text input {
@@ -62,6 +58,7 @@ form .text input {
     font-size: 20px;
     box-shadow: 5px;
     height: 80px;
+    background: rgb(11, 60, 74);
 }
 
 form .equal {
@@ -72,4 +69,9 @@ form .equal input {
     width: 50%;
     background: rgb(97, 184, 227);
 
+}
+
+form .value input {
+    width: 90px;
+    height: 45px;
 }
