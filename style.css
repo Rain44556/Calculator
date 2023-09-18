@@ -34,15 +34,13 @@
 .calculator form input {
     border: 0;
     outline: 0;
-    width: 48px;
-    height: 48px;
     border-radius: 10px;
     box-shadow: -8px -8px 15px rgba(14, 4, 4, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
     background: rgb(120, 236, 214);
     font-size: 18px;
     color: rgb(18, 101, 13);
     cursor: default;
-    margin: 10px;
+    margin: 8px;
 }
 
 form .text {
@@ -67,12 +65,13 @@ form .equal {
 }
 
 form .equal input {
-    width: 50%;
+    width: 40%;
+    height: 8vh;
     background: rgb(97, 184, 227);
 
 }
 
 form .value input {
-    width: 90px;
-    height: 45px;
+    width: 80px;
+    height: 50px;
 }
